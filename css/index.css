@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: auto;
+    min-height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.principal{
+    height: 100%;
+    width: 45%;
+    padding: 20px;
+
+    background-color: #E5E5E5;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topo, #title-conteudo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2%;
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #262331;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+#tarefa{
+    display: flex;
+    justify-content: space-around;
+    width: 472px;
+    height: 56px;
+    padding-left: 5%;
+
+    background: #FFFFFF;
+    border: 1px solid #D6D4E2;
+    border-radius: 16px;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #787491;
+}
+
+#criaTarefa{
+    font-weight: 400;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+
+    width: 152px;
+    height: 56px;
+
+    color: #FFFFFF;
+    background: #02B553;
+    border-radius: 16px;
+    border: none;
+
+    cursor: pointer;
+}
+
+#lista-tarefas{
+    margin-top: 5%;
+}
